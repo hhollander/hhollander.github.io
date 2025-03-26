@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Page background color */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  padding: 20px;
+}
+
+/* One element uses a serif font */
+h1 {
+  font-family: "Georgia", serif;
+}
+
+/* Style nav menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Add a border to images */
+img {
+  border: 3px solid #aaa;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* Unique layout on gallery page */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
